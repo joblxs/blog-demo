@@ -1003,7 +1003,7 @@ CDN:
     # prismjs_js: https://cdn1.tianli0.top/npm/prismjs@1.1.0/prism.js
     # prismjs_lineNumber_js: https://cdn1.tianli0.top/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
     # prismjs_autoloader: https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
-    coin_js: /js/coin.js
+    coin_js: /static/js/coin.js
     coin_css: /static/css/coin.css
 
 # wowjs动画特效
@@ -1107,7 +1107,7 @@ tag_plugins:
   priority: 5 #过滤器优先权
   issues: false #issues标签开关
   link:
-    placeholder: "/assets/coffee.png" #link_card标签默认的图标图片
+    placeholder: "/static/assets/coffee.png" #link_card标签默认的图标图片
   CDN:
     anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
     jquery: https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js #issues标签依赖
